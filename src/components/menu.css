@@ -1,0 +1,76 @@
+.form-find {
+    background-color: #e8e8e8;
+    border: 1px gray solid;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6px;
+}
+
+.search {
+    border-radius: 4px;
+    border: 1px gray solid;
+}
+
+.search-red {
+    border-radius: 4px;
+    border: 1px gray solid;
+    background-color: #ffbab1;
+}
+
+
+.table-users {
+
+}
+
+.table-users tr {
+    border-bottom: 2px gray solid;
+}
+
+.table-users tr td {
+    padding: 6px 4px 6px 10px;
+}
+
+.table-users tr td:last-child {
+    display: flex;
+    justify-content: space-between;
+    float: none !important;
+    width: 95% !important;
+}
+
+.table-users tr th {
+    padding: 6px 4px 6px 10px;
+    background-color: #f3f3f3;
+}
+
+.table-users .btn-remove {
+    cursor: pointer;
+}
+
+.table-users .btn-remove:hover {
+    color: #7d0000;
+}
+
+.result-search {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    z-index: 3;
+    box-shadow: 0px 2px 16px #888888;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.result-search tr {
+    border: none;
+    cursor: pointer;
+}
+
+.result-search tr:hover {
+    background-color: #2474AB;
+}
+
+.none {
+    display: none;
+}
